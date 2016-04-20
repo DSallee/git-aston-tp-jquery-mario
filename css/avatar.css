@@ -1,0 +1,28 @@
+#mario {
+    display: none;
+    position: absolute;
+    top: 725px;
+    left: 250px;
+}
+
+.mario {
+    width: 30px;
+}
+
+.small-mario {
+    display: none;
+    position: absolute;
+    top: 745px;
+    left: 250px;
+    width: 30px;
+}
+
+#ninja {
+    position: absolute;
+    top: 685px;
+    left: 250px;
+}
+
+.ninja {
+    width: 150px;
+}

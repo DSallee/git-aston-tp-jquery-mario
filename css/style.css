@@ -1,0 +1,18 @@
+#game-wrapper {
+	width: 100%;
+}
+
+.bg {
+	min-height: 800px;
+	display: block;
+	background-image: url(../images/bg2.jpg);
+	background-repeat: repeat-x;
+}
+
+/*#suprise-block {
+	width: 30px;
+}
+
+#used-block {
+	width: 30px;
+}*/
