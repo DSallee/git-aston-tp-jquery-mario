@@ -1,28 +1,23 @@
-#mario {
-    display: none;
-    position: absolute;
-    top: 725px;
-    left: 250px;
-}
-
-.mario {
-    width: 30px;
-}
-
-.small-mario {
-    display: none;
-    position: absolute;
-    top: 745px;
-    left: 250px;
-    width: 30px;
-}
-
 #ninja {
     position: absolute;
-    top: 685px;
+    bottom: 0;
     left: 250px;
 }
 
 .ninja {
     width: 150px;
 }
+
+/* @keyframes jump {
+    0%   {transform: translateY(0%); bottom: 0px;}
+    50%  {transform: translateY(30%); bottom: 80px;}
+    100% {transform: translateY(100%); bottom: 100px;}
+} */
+
+/* .jump {
+    transform-origin: 20% 50%;
+    animation-name: jump;
+    animation-duration: .5s;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+} */

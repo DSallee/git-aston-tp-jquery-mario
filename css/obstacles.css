@@ -1,0 +1,40 @@
+.ground {
+  height: 40px;
+  width: 100%;
+  background-color: brown;
+}
+
+#blocks .suprise-block1 {
+	position: absolute;
+	bottom: 134.5px;
+	left: 568.5px;
+	width: 33.5px;
+}
+
+#items .suprise-coin1 {
+	position: absolute;
+	bottom: 137.5px;
+	left: 574px;
+	width: 23px;
+}
+
+#blocks .suprise-block2 {
+	position: absolute;
+	bottom: 295px;
+	left: 862px;
+	width: 33.5px;
+}
+
+#items .suprise-coin2 {
+	position: absolute;
+	bottom: 298.5px;
+	left: 868px;
+	width: 23px;
+}
+
+#blocks .used-block {
+	position: absolute;
+	bottom: 295px;
+	left: 862px;
+	width: 33.5px;
+}

@@ -2,10 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Ninja likes Mario's world</title>
+
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/avatar.css">
 	<link rel="stylesheet" href="css/mob.css">
+	<link rel="stylesheet" href="css/obstacles.css">
+
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  	<script type="text/javascript" src="bower_components/jquery/dist/jquery.keyframes.min.js"></script>
 </head>
 <body>
 	<audio src="sons/Mario.mp3" type="audio/mp3" autoplay loop></audio>
@@ -19,32 +24,32 @@
 
     <div id="game-wrapper">
 	    <div id="bg" class="bg">
-		    <div id="mario">
-		    	<!-- <img class="small-mario" src="images/small-mario-move.gif"> -->
-		    	<img class="mario" src="images/mario-move.gif">
-		    </div>
-
-		    <div id="ninja">
-		    	<!-- <img class="small-mario" src="images/small-mario-move.gif"> -->
-		    	<img class="ninja" src="images/ninja-move.gif">
-		    </div>
-
-		    <div id="gomba">
-		        <img class="gomba" src="images/gomba.gif">
-		    </div>
-
-		    <div id="block">
-			    <img class="suprise-block" src="images/suprise-block.gif">
-			    <img class="used-block" src="images/used-block.jpg">
-		    </div>
-
-	        <div id="coin" class="coin">
-	        	<img id="coin" class="coin" src="images/coin.gif">
-	        </div>
+			<div class="playzone">
+				<button class="reset">RESET</button>	
+				
+		    	<div id="ninja">
+					<img class="ninja" src="images/ninja-move.gif">
+				</div>
+	
+				<div id="enemies">
+					<img class="gomba" src="images/gomba.gif">
+				</div>
+	
+				<div id="items">
+					<img class="coin suprise-coin1" src="images/coin.gif">
+					<img class="coin suprise-coin2" class="coin" src="images/coin.gif">
+				</div>
+				
+				<div id="blocks">
+					<img class="suprise-block suprise-block1" src="images/suprise-block.gif">
+					<img class="suprise-block suprise-block2" src="images/suprise-block.gif">
+					<img hidden class="used-block" src="images/used-block.jpg">
+				</div>
+	
+			</div>
 	    </div>
 	</div>
 
-	<script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
