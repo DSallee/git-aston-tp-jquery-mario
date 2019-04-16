@@ -1,18 +1,17 @@
 #game-wrapper {
 	width: 100%;
+	overflow-x: hidden;
 }
 
 .bg {
 	min-height: 800px;
 	display: block;
+	position: relative;
 	background-image: url(../images/bg2.jpg);
-	background-repeat: repeat-x;
+	background-repeat: repeat no-repeat;
 }
 
-/*#suprise-block {
-	width: 30px;
+.playzone {
+	position: relative;
+	height: 783px;
 }
-
-#used-block {
-	width: 30px;
-}*/
