@@ -1,6 +1,6 @@
 #enemies .gomba {
 	position: absolute;
 	width: 30px;
-	top: 745px;
+	bottom: 0;
 	left: 400px;
 }
